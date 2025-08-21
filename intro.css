@@ -1,0 +1,98 @@
+body{
+    background-image:url(pharm.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.heading-container{
+    text-align: center;
+    margin-top: 50px;
+}
+h4{
+    color: white;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+h1{
+     font-size: 100px;
+     font-weight: bolder;
+     font-family:cursive;
+     color:white;
+     text-align:center;
+     margin-bottom: 5px;
+     margin-right: 100px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(30, 145, 184);
+    height:35px;
+    position:relative;
+}
+button{  
+       font-size: 35px;
+        height: 90px;
+        width:185px;
+        border-radius: 20px;
+          background-color: green;
+          color: white;
+          margin-left: 590px;
+          cursor: progress;
+        }
+.button-container button {
+            font-size: 25px;
+            font-family: sans-serif;
+            height: 40px;
+            padding: 0 15px;
+            border-radius: 8px;
+            border: none;
+            background-color:  rgb(30, 145, 184);
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+.button-container button:hover {
+            background-color: blueviolet;
+        }
+p{
+    color:white;
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.help h2{
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+}
+.red{
+    width:56px;
+    color:black;
+    align-items: center;
+    display: flex;
+    width:300px;
+    margin-left: 620px;
+}
+.define{
+    color: white;
+    float: right;
+    border-radius: 20px;
+    margin-top: auto;
+}
+ul{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+        position: absolute; /* Sticks to a spot on the page */
+        top: 10px;          /* Distance from the top */
+        left: 10px;         /* Distance from the left */
+        width: 50px;        /* Size */
+        height: 50px;
+        border-radius: 50%; /* Makes it round */
+        object-fit: cover;  /* Keeps the image from stretching */
+}

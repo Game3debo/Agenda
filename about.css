@@ -1,0 +1,105 @@
+body{
+    background-image: url(HO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.heading-container{
+   
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.headers{
+     font-size: 45px;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(30, 145, 184);
+    height:35px;
+     margin:0;
+   
+}
+.logo{
+        position: absolute; /* Sticks to a spot on the page */
+        top: 10px;          /* Distance from the top */
+        left: 10px;         /* Distance from the left */
+        width: 50px;        /* Size */
+        height: 50px;
+        border-radius: 50%; /* Makes it round */
+        object-fit: cover;  /* Keeps the image from stretching */
+}
+.button-container button {
+            font-size: 25px;
+            font-family: sans-serif;
+            height: 40px;
+            width: 150px;
+            padding: 0 15px;
+            border-radius: 8px;
+            border: none;
+            background-color:  rgb(30, 145, 184);
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+.button-container button:hover {
+            background-color: blue;
+        }
+.section {
+        display: flex;
+        color: white;
+        text-align: center;
+    }
+.service {
+        flex: 1;
+        background-color: rgba(175, 187, 207, 0.8); /* blue overlay */
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: 1px solid rgba(255,255,255,0.2);
+    }
+.service:last-child {
+        border-right: none;
+    }
+.service img {
+        width: 50px;
+        margin-bottom: 15px;
+}
+.service h3 {
+        margin: 10px 0;
+    }
+.service p {
+        font-size: 14px;
+        margin: 10px 0 20px;
+    }
+.service a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+.promo {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.863);
+        color: #333;
+        padding: 40px;
+        border-radius: 8px 0 0 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.promo h2 {
+        margin: 0 0 15px;
+    }
+img {
+    padding: 15px;                  /* Adds space inside the image border */
+    border-radius: 10px;            /* Optional rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+  /* Hover effect */
+img:hover {
+    transform: scale(1.05);         /* Slightly zoom in */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Add shadow on hover */
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Register now</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+     <header class="header">
+            <p style="margin-left: 25px;font-size: 35px;color: white;font-weight: bold;margin-bottom: 15px;">Agenda Pharmacy</p>
+    <nav>
+        <div class="list">
+            <ul>
+                <div class="button-container">
+            <button><a href="home.html" style="color: white;text-decoration: none;"target="_blank">HOME</a></button>
+            <button><a href="about.html" style="color: white;text-decoration: none;"target="_blank">ABOUT</a></button>
+            <button> <a href="pharmacist.html" style="color: white;text-decoration: none;"target="_blank">OWNER</a></button>
+            <button><a href="services.html" style="color: white;text-decoration: none;"target="_blank">SERVICES</a></button>
+            <button><a href="contact.html" style="color: white;text-decoration: none;"target="_blank">CONTACT</a></button>
+            </div>
+        </ul>
+        </div>
+</nav>
+</header>
+<img src="logo.jpg" alt="Logo" class="logo">
+    <form>
+        <h1 style="text-align: center;">PATIENT FORM</h1>
+        <label for="firstname">First Name:</label><input type="text" name-="firstname" required style="font-size: 20px;width:1000px;"><br>
+        <br>
+        <br>
+        <label for="lastname">Last Name:</label><input type="text" name-="lastname" required style="font-size: 20px;width:1000px;"><br>
+        <br>
+        <br>
+        <label for="date">Date of Birth:</label><input type="date" name-="birthday" required style="font-size: 20px;width:980px;"><br>
+        <br>
+        <br>
+       <label for="gender"> Gender:</label><input type="radio" required>Female
+        <input type="radio" required>Male<br>
+        <br>
+        <br>
+        <label for="genotype"> Blood Group:</label><input type="radio" required>O+
+        <input type="radio" required>O-<input type="radio" required>A-<input type="radio" required>A+<input type="radio" required>AB-<input type="radio" required>AB+<input type="radio" required>B-<input type="radio" required>B+<br><br>
+         <label for="Alergies">Alergies:<input type="radio" required>Yes
+    <select id="alergy" name="Alergies">
+        <option value="med">Medications</option>
+        <option value="food">Food</option>
+        <option value="env">Environment</option>
+    </select><input type="radio" required>No<br><br>
+    <label for="med">Medical History:</label><input type="checkbox" required>Asthma<input type="checkbox" required>Diabetes<input type="checkbox" required>Hypertension<input type="checkbox" required>Ulcer<input type="checkbox" required>None<br><br>
+        <label for="Phone">Phone</label> No:<input type="tel" name="phone" required style="font-size: 20px;font-family: 'Times New Roman', Times, serif ;width: 980px;"><br>
+        <br>
+        <br>
+        <label for="adress">Adress:</label><input type="textarea" name="address" required style="font-size: 20px;width: 1000px;"><br>
+        <br>
+        <br>
+       <label for="email"> E-mail Address:</label><input type="email" name="email" required style="font-size: 20px;width:930px"><br>
+        <br>
+        <br>
+        <label for="currentMedications">Current Medications:</label><br><textarea id="currentMedications" rows="5" cols="40" placeholder="State them here"></textarea>
+        <br>
+         <label for="name">Emergency Contact Name:</label><input type="text" name="name" required style="font-size: 20px;width:670px;"><br>
+        <br>
+        <label for="number">Emergency Contact Phone Number:</label><input type="phone" required style="font-size: 20px;width:550px;">
+        <br>
+        <br>
+        <label for="message">Your Compliant:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your Complaints here..."></textarea>
+        </select>
+
+     </form>
+     <br>
+     <br>
+     <button>SUBMIT</button>
+</body>
+</html>

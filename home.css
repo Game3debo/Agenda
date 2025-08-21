@@ -1,0 +1,79 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+ /* Video background styling */
+video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /* makes it fill the space without distortion */
+    z-index: -1; /* puts it behind all other content */
+}
+    
+p{
+    color:white;
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.header{
+    height: 15px; /* makes the header thinner */
+    padding: 5px; 
+    background-color:darkblue;
+    color: white;
+    display: flex;
+    position:relative;
+}
+.headers{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(30, 145, 184);
+    height:35px;
+    position:relative;
+}
+.button-container button {
+            font-size: 25px;
+            font-family: sans-serif;
+            height: 40px;
+            padding: 0 15px;
+            border-radius: 8px;
+            border: none;
+            background-color:  rgb(30, 145, 184);
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+.button-container button:hover {
+            background-color: blueviolet;
+}
+.logo{
+        position: absolute; /* Sticks to a spot on the page */
+        top: 30px;          /* Distance from the top */
+        left: 10px;         /* Distance from the left */
+        width: 50px;        /* Size */
+        height: 50px;
+        border-radius: 50%; /* Makes it round */
+        object-fit: cover;  /* Keeps the image from stretching */
+}
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+.green-box {
+  background-color: rgb(53, 53, 117); /* light green */
+  margin-top: 350px;
+  padding: 20px;
+  width: 300px;
+
+  /* Move it down */
+  margin-top: 500px; /* adjust this value to your liking */
+}
